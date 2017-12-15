@@ -1,0 +1,14 @@
+<table class="table">
+    <tr class="header">
+        <th class="heading">name</th>
+        <th class="heading">C1</th>
+        <th class="heading">C2</th>
+        <th class="heading">C3</th>
+    </tr>
+    <tr *ngFor="let item of tableData">
+        <td class="col-content">{{item.name}}</td>
+        <td class="col-content">{{item.C1 || '-'}}</td>
+        <td class="col-content">{{item.C2 || '-'}}</td>
+        <td class="col-content">{{item.C3|| '-'}}</td>
+    </tr>
+</table>

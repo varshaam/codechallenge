@@ -1,0 +1,12 @@
+<table class="table">
+    <tr class="header">
+        <th class="heading" (click)="sortby('name')">name<span>&#8691;</span></th>
+        <th class="heading" (click)="sortby('category')">category<span>&#8691;</span></th>
+        <th class="heading" (click)="sortby('amount')">amount<span>&#8691;</span></th>
+    </tr>
+    <tr *ngFor="let item of tableData">
+        <td class="col-content">{{item.name}}</td>
+        <td class="col-content">{{item.category}}</td>
+        <td class="col-content">{{item.amount}}</td>
+    </tr>
+</table>

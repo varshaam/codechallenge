@@ -1,0 +1,23 @@
+.heading {
+    padding: 10px;
+    position: relative;
+}
+
+.header span {
+    position: absolute;
+    right: 13px;
+}
+
+.col-content {
+    padding: 3px 10px;
+    text-align: center;
+}
+
+.table {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.header {
+    background: cornflowerblue;
+}
